@@ -20,7 +20,7 @@ public class KeyFinder {
             }
             s.close();
         } catch (FileNotFoundException e) {
-            System.out.println("An error occurred.");
+            System.out.println("error ");
             e.printStackTrace();
         }
       
