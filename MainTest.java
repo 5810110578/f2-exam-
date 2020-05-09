@@ -10,6 +10,6 @@ public class MainTest {// test function
 		shapes.add(r1);
 		//shapes.add(new Rectangle("R2", 3, 5));
         //shapes.add(new Circle("C1", 3));
-        System.out.printf("Total area = %.2f\n", r1.getArea());
+        System.out.printf(" Area Rectangle = %.2f\n", r1.getArea());
 	}
 }

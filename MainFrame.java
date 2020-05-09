@@ -9,10 +9,10 @@ public class MainFrame extends JFrame{
 
 		JPanel number_panel = new JPanel();
 		ActionListener ln = new NumberBtnListener();
-			JButton btn = new JButton("OK" );
-			btn.setActionCommand("");
-			btn.addActionListener(ln);
-			number_panel.add(btn);
+		JButton btn = new JButton("OK" );
+		btn.setActionCommand("OK" );
+		btn.addActionListener(ln);
+		number_panel.add(btn);
 		
 		
 		tf = new JTextField();
@@ -31,6 +31,7 @@ public class MainFrame extends JFrame{
 		public void actionPerformed(ActionEvent event){
 			new MainTest();//test function
 			new KeyFinder();
+			tf.setText(tf.getText() + event.getActionCommand());
 		}
 	}
 
