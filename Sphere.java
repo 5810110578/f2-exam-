@@ -16,15 +16,12 @@ public class Sphere extends Shape3D {	//concrete class
 	}
 
 	public double getArea(){
-		return Math.PI * radius * radius * radius* 4; // 4/3(πr3)
+		return Math.PI * radius * radius * radius* 4; 
     }
     
     public double getVolume(){
-		return Math.PI * radius * radius * radius* (4/3); // 4/3(πr3)
+		return Math.PI * radius * radius * radius * (4/3); 
     }
 
-	public static void main(String[] args){
-		Circle c = new Circle("C1", 2);
-		System.out.println("Area of " +  c.getName() + " is " + c.getArea());
-	}
+
 }
