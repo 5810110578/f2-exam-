@@ -14,9 +14,9 @@ public class KeyFinder {
                 String items[] = line.split(" ");
                 if(items[0].equals(key));
                 total += Integer.parseInt(items[1]);
-        
+                System.out.println("");
             }
-            myObj.close();
+            s.close();
         } catch (FileNotFoundException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();

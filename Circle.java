@@ -15,7 +15,7 @@ public class Circle extends Shape2D {	//concrete class
 	}
 
 	public double getArea(){
-		return Math.PI * radius * radius* radius*4/3; // 4/3(πr3)
+		return Math.PI * radius * radius; 
 
 
 	}
